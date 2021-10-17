@@ -56,7 +56,7 @@ function createCactus() {
             clearInterval(leftInterval);
             document.body.innerHTML = '<h1 class="game-over">Fim de jogo</h1>';
         } else {
-            cactusPosition -= 10;
+            cactusPosition -= 11;
             cactus.style.left = cactusPosition + 'px';
         }
     }, 20);
